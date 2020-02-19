@@ -11,7 +11,7 @@ import java.util.Scanner;
 /** This class calls the method to perform 
  * arithmetic operations based on user input
  * execute the code check the output
- * @author sivagamasrinivasan
+ * @author nirwair
  * date 02/19
  */
 public class Arithmetic 
@@ -25,6 +25,7 @@ public class Arithmetic
        
         ArithmeticBase r= new ArithmeticBase();
         double result = r.calculate(1,2);
+        
         System.out.println("result :" +result); 
     
     }
